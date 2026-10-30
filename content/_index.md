@@ -6,7 +6,7 @@ sections:
   # 1. Biography & Profile Block
   - block: biography
     content:
-      username: me
+      username: admin
     design:
       avatar:
         size: large
@@ -16,19 +16,19 @@ sections:
   - block: skills
     content:
       title: Technical Skills
-      username: me
+      username: admin
 
   # 3. Experience Block
   - block: experience
     content:
       title: Research & Work Experience
-      username: me
+      username: admin
 
   # 4. Languages Block
   - block: languages
     content:
       title: Languages
-      username: me
+      username: admin
 
   # 5. Awards & Accomplishments Block
   - block: awards
