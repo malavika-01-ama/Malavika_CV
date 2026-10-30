@@ -2,7 +2,7 @@
 title: Malavika B
 superuser: true
 authors:
-  - me
+  - admin
 
 # Display name
 name:
@@ -35,7 +35,7 @@ affiliations:
 links:
   - icon: at-symbol
     url: mailto:malavika.bala.ecoevo@gmail.com
-    label: E-mail Me
+    label: E-mail me
   - icon: brands/bluesky
     url: https://bsky.app/profile/sapien-named-mala.bsky.social
   - icon: brands/github
@@ -122,7 +122,7 @@ languages:
     label: Elementary proficiency
 ---
 
-### About Me
+### About me
 I'm Malavika, a final-year BS-MS student at the Indian Institute of Science Education and Research (IISER) Tirupati, doing my thesis in the Sciurid Lab. I'm interested in population-level and community-level differences and interactions in ecosystems, and I use genomic tools and empirical models to study them.
 
 This led me to study patterns of adaptation and selection under anthropogenic stress. My thesis work involves expanding genomic resources for Indian squirrels and identifying adaptations to human pressures using genomics.
