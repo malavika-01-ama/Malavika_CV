@@ -1,133 +1,126 @@
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+---
+# Display name
 name:
-  display: 吳健雄
-  given: Shiung Wu
-  family: Chien
-  pronunciation: Chien Shiung Wu
+  display: Malavika B
+  given: Malavika
+  family: B
+  alternate: மாளவிகா
+  pronunciation: mah-LAH-vi-kah
   pronouns: she/her
+
+# Status emoji (shown near your avatar)
 status:
-  icon: "☕️"
-role: Director of Cloud Infrastructure
-bio: >
-  I am currently Director of Cloud Infrastructure at GenCoin where I am leading
-  teams on edge computing, deep sea data center architecture, and hivemind
-  optimization.
+  icon: "🧬"
+
+# Job title/role
+role: Masters Thesis Student, IISER Tirupati
+
+# Short bio for blog posts/lists
+bio: >-
+  Hi! I'm Malavika, a final-year BS-MS student at the Indian Institute of
+  Science Education and Research (IISER) Tirupati, doing my thesis in the
+  Sciurid Lab.
+
+# Your affiliations
 affiliations:
-  - name: GenCoin
-    url: https://www.example.com/
+  - name: The Sciurid Lab
+    url: https://sciuridlab.in/team
+
+# Social/Contact links
 links:
   - icon: at-symbol
-    url: mailto:your-email@example.com
+    url: mailto:malavika.bala.ecoevo@gmail.com
     label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/GoOwnable
+  - icon: brands/bluesky
+    url: https://bsky.app/profile/sapien-named-mala.bsky.social
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/malavika-01-ama
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://www.linkedin.com/in/malavika-balasubramanian-a95516172
+
+# Your research interests
+interests:
+  - Ecology
+  - Landscape Genomics
+  - Population Genomics
+  - Biogeography
+  - Conservation
+
+# Education history
 education:
-  - degree: PhD Artificial Intelligence
-    institution: Stanford University
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: "Read Thesis"
-      url: "https://example.com"
-  - degree: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+  - degree: Bachelor of Science & Master of Science (dual degree) in Biology
+    institution: Indian Institute of Science Education and Research, Tirupati
+    grade: 8.6/10
+    start: 2022-12-01
+    end: 2027-08-01
+  - degree: Senior Secondary (Class 11 & 12), CBSE
+    institution: SVVV, Chennai
+    grade: 91%
+    start: 2020
+    end: 2022
+  - degree: Secondary (Class 9 & 10), CBSE
+    institution: PSBB, Chennai
+    grade: 93%
+    start: 2017
+    end: 2019
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - degree: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    start: 2016-01-01
-    end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+# Work/Research experience
 experience:
-  - role: Director of Cloud Infrastructure
-    org: GenCoin
-    start: 2021-01-01
+  - role: Masters Thesis Student (credited)
+    org: Sciurid Lab, IISER Tirupati
+    start: 2026-08-01
     summary: |
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - role: Backend Software Engineer
-    org: X
-    start: 2016-01-01
-    end: 2020-12-31
+      Supervisor: Dr. Nandini Rajamani. [Sciurid Lab](https://sciuridlab.in/)
+      * Thesis project: a landscape genomics approach to studying local adaptation in a squirrel species across peninsular India.
+  - role: Semester Project Intern (credited)
+    org: Sciurid Lab, IISER Tirupati
+    start: 2025-08-01
+    end: 2026-04-30
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Supervisor: Dr. Nandini Rajamani. [Sciurid Lab](https://sciuridlab.in/)
+      * Project 1: Designing a reduced-representation sequencing panel to enable population-level analyses in a squirrel species.
+      * Project 2: Development of a preliminary reference genome for a non-model squirrel species.
+  - role: Course Project, Non-linear Dynamics (PHY 327)
+    org: IISER Tirupati
+    start: 2025-01-01
+    end: 2025-05-31
+    summary: |
+      Supervisor: Dr. Aradhana Singh. [Code](https://github.com/malavika-01-ama/NLD-Project)
+      * Reconstructed phase space from time series by time-delay embedding.
+  - role: Summer Intern (uncredited)
+    org: CaFE Lab, CCMB Hyderabad
+    start: 2024-05-01
+    end: 2024-07-31
+    summary: |
+      Supervisor: Dr. Meghna Krishnadas. Fieldwork assistance in Kadumane estate, Western Ghats.
+
+# List of skills
 skills:
-  - name: Technical Skills
+  - name: Computational and Genomics
     items:
-      - label: Python
-        level: 4
-      - label: RStudio
-        level: 5
-      - label: PyTorch
-        level: 2
-  - name: Hobbies
-    color: "#eeac02"
-    color_border: "#f0bf23"
+      - name: Genome assembly and annotation
+      - name: Linux command line / HPC
+      - name: Statistics (Python, R)
+      - name: QGIS
+  - name: Molecular Lab
     items:
-      - label: Hiking
-        level: 3
-      - label: Cats
-        level: 5
-      - label: Photography
-        level: 4
+      - name: PCR and Gel electrophoresis
+      - name: DNA extraction
+
+# Language proficiencies
 languages:
   - name: English
-    level: 5
-  - name: Chinese
-    level: 4
-  - name: Portuguese
-    level: 1
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: "2023-11-25"
-    awarder: Coursera
-    icon: brands/coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: "2023-07-01"
-    awarder: edX
-    icon: brands/edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: "Object-Oriented Programming in R"
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: "2023-01-21"
-    awarder: datacamp
-    icon: brands/datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+    label: Full professional proficiency
+  - name: Tamil
+    label: Native/bilingual proficiency
+  - name: Hindi
+    label: Elementary proficiency
+---
+
+### About Me
+I'm Malavika, a final-year BS-MS student at the Indian Institute of Science Education and Research (IISER) Tirupati, doing my thesis in the Sciurid Lab. I'm interested in population-level and community-level differences and interactions in ecosystems, and I use genomic tools and empirical models to study them.
+
+This led me to study patterns of adaptation and selection under anthropogenic stress. My thesis work involves expanding genomic resources for Indian squirrels and identifying adaptations to human pressures using genomics.
